@@ -1,0 +1,118 @@
+body {
+  background: url(../images/hp-bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main {
+background-color: #9fc4e8;
+color: #093b66;
+background: #9fc4e8 url(../images/hp-bg2.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.btn-primary{
+  background-color: #0065b1;
+  border-color: #0065b1;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.2rem;
+  border-top: #0052a4 dashed 1px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+.link-no-style  button{
+  margin-right:  5px;
+  min-width: 200px;
+}
+
+
+div.main {
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+div.full-height {
+  min-height: 100vh;
+}
+
+a.link-no-style {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin-top: -40px;
+    height: 40px;
+    clear: both;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 100%;
+
+    span {
+      align-self: center;
+      text-align: center;
+    }
+    small{
+      position: fixed;
+      bottom: 5px;
+    }
+  }
+}
+
+.aboutUs {
+  min-height: 700px;
+}
+
+
+.footer-col footer small {
+  background: transparent;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px 10px;
+}
+
+.topHouse{
+  margin-top: -35px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .link-no-style  button{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 15px;
+
+    }
+
+    .footer-col footer small {
+      background: #87bee7;
+    }
+
+    .topHouse{
+      margin-top: 10px;
+    }
+
+}

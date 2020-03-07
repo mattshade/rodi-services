@@ -1,0 +1,31 @@
+#site-navbar {
+  background-color: rgba(0,0,0,0);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  vertical-align: middle;
+  color: #093b66;
+}
+.navbar-dark .navbar-brand{
+  color: #093b66;
+}
+
+.rIcon{
+  font-size: 1.6rem;
+}
+
+.title{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #site-navbar {
+    background-color: rgba(135,190,231,1);
+  }
+}
